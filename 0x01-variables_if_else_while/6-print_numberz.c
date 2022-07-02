@@ -1,19 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Print all single digit numbers using only putchar
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int d = 10;
+	int digital;
 
-	while (d < 20)
-	{
-		putchar(d);
-		d++;
-	}
+	for (digital = 0; digital < 10; digital++)
+	putchar(digital + '0');
+
 	putchar('\n');
 
 	return (0);
