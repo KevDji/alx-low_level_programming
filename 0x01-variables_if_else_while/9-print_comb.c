@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	int d = 0;
+	int d = 10;
 
-	while (d <10)
+	while (d <20)
 	{
 		putchar(d);
-		if (d != 9)
+		if (d != 19)
 		{
 			putchar(',');
 			putchar(' ');
