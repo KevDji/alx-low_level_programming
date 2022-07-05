@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *main - Task 1
- *Description: execution de task 1
+ *print_alphabet - execution task 1
+ *
  * Return: Always 0 (Success).
  */
 
