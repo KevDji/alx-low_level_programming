@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * print_last_digit - Task 7
+ *
+ * Return: 
+ */
+int print_last_digit(int n)
+{
+	int k;
+
+	if (n < 0)
+	n = -n;
+	k = n % 10;
+	if (k < 0)
+	k = -k;
+	_putchar(a + '0');
+	return (k);
+}
+
