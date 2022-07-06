@@ -2,8 +2,9 @@
 
 /**
  * print_last_digit - Task 7
+ *@n: Extraction
  *
- * Return: 
+ * Return: value of the last digit
  */
 int print_last_digit(int n)
 {

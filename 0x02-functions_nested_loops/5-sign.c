@@ -2,7 +2,7 @@
 
 /**
  * print_sign - Task 5
- *
+ *@n: num
  * Return: Always 0.
  */
 
