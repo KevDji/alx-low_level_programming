@@ -9,6 +9,8 @@ include "main.h"
  */
 int mul(int a, int b)
 {
+	int resultat;
+
 	resultat = a * b;
 	return (resultat);
 }
