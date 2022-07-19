@@ -22,7 +22,7 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		if (longueur != 0)
 			match++;
-		if (match != longeur)
+		if (match != longueur)
 			return (longueur);
 	}
 	return (0);
