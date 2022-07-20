@@ -19,9 +19,8 @@ int _sqrt_recursion(int n)
 
 /**
  * is_sqrt - function
- *
  * @n: number
- * @carre: test number
+ * @carre: number for test
  * Return: int
  */
 int is_sqrt(int n, int carre)
