@@ -24,13 +24,13 @@ int _sqrt_recursion(int n)
  * @square: test number
  * Return: int
  */
-int is_sqrt(int n, int square)
+int is_sqrt(int n, int carre)
 {
-	if (square * square == n)
-		return (square);
-	else if (square * square < n)
-		return (is_sqrt(n, square + 1));
-	else if (square * square > n)
+	if (carre * carre == n)
+		return (carre);
+	else if (carre * carre < n)
+		return (is_sqrt(n, carre + 1));
+	else if (carre * carre > n)
 		return (-1);
 	return (-1);
 }
