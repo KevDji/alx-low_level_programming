@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main - prints 
+ * main - prints
  *
  * @argc: argument count
  * @argv: argument vector
